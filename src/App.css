@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-wrapper {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,6 +26,7 @@
 
 .App-link {
   color: #61dafb;
+  text-decoration: none;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul {
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.Home {
+  width: 80%;
+}
+
+tr:nth-child(even) {
+  background-color: #4f5664;
 }
